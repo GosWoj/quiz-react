@@ -189,11 +189,19 @@ main {
 }
 .correct-answers {
   font-size: 1rem;
-  margin-bottom: 2rem;
+  margin-bottom: 0.1rem;
   text-align: right;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   color: var(--clr-green-dark);
+}
+.answered {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  text-align: right;
+  text-transform: capitalize;
+  letter-spacing: var(--spacing);
+  color: var(--clr-black);
 }
 .next-question,
 .close-btn,

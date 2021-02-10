@@ -27,7 +27,7 @@ const AppProvider = ({ children }) => {
   const [modal, setModal] = useState(false);
   const [quiz, setQuiz] = useState({
     amount: 10,
-    category: "Entertainment: Film",
+    category: "Entertainment_Film",
     difficulty: "easy",
   });
 
