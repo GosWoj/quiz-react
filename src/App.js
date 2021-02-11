@@ -23,7 +23,10 @@ function App() {
   }
 
   const { question, incorrect_answers, correct_answer } = questions[index];
-  const answers = [...incorrect_answers, correct_answer];
+
+  let answers = [...incorrect_answers];
+  const tempIndex = Math.floor(Math.random() * 4);
+  answers.splice(tempIndex, 0, correct_answer);
 
   return (
     <main>
